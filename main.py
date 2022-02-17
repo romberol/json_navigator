@@ -90,7 +90,6 @@ def print_json(json_path, data=None):
     print_json(json_path, data=data)
 
 if __name__=="__main__":
-    file_path = ["frienfs_list_Obama.json", "user_timeline_obama.json", "kved.json"][0] #<-----FILES EXAMPLES
     file_path = input("Enter the path to json file: ")
     print("\nNAVIGATION:\n... - list or dictionary\n<TOO LONG TO DISPLAY> - open this section to see full content")
     print_json(file_path)
